@@ -27,7 +27,7 @@ In the future, I plan to:
 
 How my code works:
 1. Using pywin32 library, open an instance of Outlook (Note: It does not open the app, app does not need to be open for my code to work. It just creates an instance of Outlook in the background.)
-2. I utilized a dictionary to reference the changes
+2. Utilizes a dictionary to reference the changes
 For each item in the recipients list, perform the below actions:
 
 	2.1 Set up the paramters for an individual mail
