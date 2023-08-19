@@ -62,22 +62,12 @@ def send_email_via_outlook(recipients):
 
 # Recipients list, each dictionary contains the parameters which you can replace
 recipients = [
-    {"name": "Sample Name,
+    {"name": "Sample Name",
      "po_number": "Sample PO Number",
      "attachment": "Attachment file path",
      "email": "samplemail@gmail.com"},
     
-    {"name": "Sample Name,
-     "po_number": "Sample PO Number",
-     "attachment": "Attachment file path",
-     "email": "samplemail@gmail.com"},
-
-    {"name": "Sample Name,
-     "po_number": "Sample PO Number",
-     "attachment": "Attachment file path",
-     "email": "samplemail@gmail.com"},
-
-    {"name": "Sample Name,
+    {"name": "Sample Name",
      "po_number": "Sample PO Number",
      "attachment": "Attachment file path",
      "email": "samplemail@gmail.com"},
@@ -86,6 +76,17 @@ recipients = [
      "po_number": "Sample PO Number",
      "attachment": "Attachment file path",
      "email": "samplemail@gmail.com"},
+
+    {"name": "Sample Name",
+     "po_number": "Sample PO Number",
+     "attachment": "Attachment file path",
+     "email": "samplemail@gmail.com"},
+
+    {"name": "Sample Name",
+     "po_number": "Sample PO Number",
+     "attachment": "Attachment file path",
+     "email": "samplemail@gmail.com"},
+    # Add as needed
 ]
 
 send_email_via_outlook(recipients)
